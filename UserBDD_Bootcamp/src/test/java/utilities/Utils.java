@@ -40,10 +40,10 @@ public static ResponseSpecification responseSpec;
 		}		
 		return requestSpec;
 	}
-	public ResponseSpecification responseSpecification() {
-		 responseSpec = new ResponseSpecBuilder().build();
-		 return responseSpec;
-	}
+	public static  RequestSpecification requestSpecification1() throws IOException { 		  
+		requestSpec = new RequestSpecBuilder().setBaseUri(getGlobalValue("baseUrl")).build();
+		   return requestSpec;
+	 }
 	
 	
 	public static String getGlobalValue(String key) throws IOException {

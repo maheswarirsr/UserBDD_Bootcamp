@@ -9,7 +9,7 @@ import org.json.simple.parser.ParseException;
 
 
 public  class JsonReader{
-	private final static String dataPath = "C:\\Users\\rajas\\eclipse-workspace\\UserBDD_Bootcamp\\src\\test\\resources\\data\\";	
+	private final static String dataPath = "C:\\Users\\rajas\\git\\repository\\UserBDD_Bootcamp\\src\\test\\resources\\data\\";	
 	private static JSONParser parser = new JSONParser();
 	private static Object body;	 
 

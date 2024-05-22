@@ -4,11 +4,11 @@ public enum APIpath {
 	
 	CreateUserAPI("/createusers"),
 	GetallUsersAPI("/users"),
-	GetUserbyIdAPI("/user/{{userId}}"),
-	GetUserbyNameAPI("/users/username/{{firstname}}"),
-	UpdateUserbyIdAPI("/updateuser/{{userId}}"),
-	DeleteUserbyIdAPI("/deleteuser/{{userId}}"),
-	DeleteUserbyNameAPI("/deleteuser/username/{{firstname}}");
+	GetUserbyIdAPI("/user/"),
+	GetUserbyNameAPI("/users/username/"),
+	UpdateUserbyIdAPI("/updateuser/"),
+	DeleteUserbyIdAPI("/deleteuser/"),
+	DeleteUserbyNameAPI("/deleteuser/username/");
 
 	private String path;
 

@@ -1,21 +1,67 @@
 {
-	"postuser": {
+	"postuser1": {
 		"userAddress": {
-			"plotNumber": "Pl-107",
-			"street": "Manor sq",
-			"state": "TX",
+			"plotNumber": "Pl-160",
+			"street": "Manor Dr",
+			"state": "SC",
 			"country": "United States",
-			"zipCode": 20330
+			"zipCode": 20512
 		},
-		"user_first_name": "Romniii",
-		"user_last_name": "Donnnn",
-		"user_contact_number": 9798822100,
-		"user_email_id": "romni21@gmail.com"
+		"user_first_name": "Rajesh",
+		"user_last_name": "Tim",
+		"user_contact_number": 4917544166,
+		"user_email_id": "rajesh23@gmail.com"
+	},	
+	"updateuser1": {		
+        "userAddress": {           
+            "plotNumber": "Pl-160",
+            "street": "Manor ct",
+            "state": "VA",
+            "country": "United States",
+            "zipCode": 20601
+        },        
+        "user_first_name": "Rajesh",
+        "user_last_name": "Thangaraj",
+        "user_contact_number": 7856901512,
+        "user_email_id": "rajesh24@gmail.com"
+	},
+	"postuserInvalid": {
+		"userAddress": {
+			"plotNumber": "Pl-147",
+			"street": "Manor sq",
+			"state": "MD",
+			"country": "United States",
+			"zipCode": 20341
+		},
+		"user_first_name": "12345",
+		"user_last_name": "&^%$",
+		"user_contact_number":2867,
+		"user_email_id": "a@gmail.com"
+	},		
+	"updateuserInvalid": {		
+        "userAddress": {           
+            "plotNumber": "Pl-148",
+            "street": "Mason dr",
+            "state": "MD",
+            "country": "United States",
+            "zipCode": 20341
+        },        
+        "user_first_name": "RajeshKK",
+        "user_last_name": "Krishna",
+        "user_contact_number": 2808321,
+        "user_email_id": "raja37"
+	},
+	"updateuserMissing": {		
+        "userAddress": {           
+            "plotNumber": " ",
+            "street": " ",
+            "state": "MD",
+            "country": "United States",
+            "zipCode": 20341
+        },        
+        "user_first_name": "",
+        "user_last_name": "",
+        "user_contact_number":2802908321,
+        "user_email_id": "raja37@gmail.com"
 	}
 }
-
-
-
-
-
-

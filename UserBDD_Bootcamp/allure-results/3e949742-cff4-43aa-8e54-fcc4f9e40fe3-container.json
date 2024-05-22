@@ -1,0 +1,1 @@
+{"uuid":"3e949742-cff4-43aa-8e54-fcc4f9e40fe3","name":"Scenario: Verify if user is being successfully created using CreateUserAPI","children":["46ab5102-f116-4f94-987e-dbd12d212270"],"befores":[],"afters":[],"start":1716404810394,"stop":1716404822565}

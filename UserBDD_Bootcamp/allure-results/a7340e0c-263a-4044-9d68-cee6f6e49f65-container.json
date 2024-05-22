@@ -1,0 +1,1 @@
+{"uuid":"a7340e0c-263a-4044-9d68-cee6f6e49f65","name":"Scenario: Verify if user is being successfully deleted using DeleteUserbyNameAPI","children":["76ffb7fc-f2e3-4d7b-a6c3-d441172b3abe"],"befores":[],"afters":[],"start":1716387395831,"stop":1716387396235}
