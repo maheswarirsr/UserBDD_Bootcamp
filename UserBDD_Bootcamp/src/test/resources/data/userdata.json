@@ -1,43 +1,56 @@
 {
 	"postuser1": {
 		"userAddress": {
-			"plotNumber": "Pl-160",
-			"street": "Manor Dr",
-			"state": "SC",
+			"plotNumber": "Pl-171",
+			"street": "Manor Sq",
+			"state": "CA",
 			"country": "United States",
 			"zipCode": 20512
 		},
-		"user_first_name": "Rajesh",
-		"user_last_name": "Tim",
-		"user_contact_number": 4917544166,
-		"user_email_id": "rajesh23@gmail.com"
+		"user_first_name": "Rajaaaaaaaaa",
+		"user_last_name": "Palaniiiiiiiiiii",
+		"user_contact_number": 2883242935,
+		"user_email_id": "raja71@gmail.com"
 	},	
 	"updateuser1": {		
         "userAddress": {           
-            "plotNumber": "Pl-160",
+            "plotNumber": "Pl-163",
             "street": "Manor ct",
             "state": "VA",
             "country": "United States",
             "zipCode": 20601
         },        
-        "user_first_name": "Rajesh",
+        "user_first_name": "Raja",
         "user_last_name": "Thangaraj",
-        "user_contact_number": 7856901512,
-        "user_email_id": "rajesh24@gmail.com"
+        "user_contact_number": 7856901511,
+        "user_email_id": "raja011@gmail.com"
 	},
-	"postuserInvalid": {
+	"createexistCN": {
 		"userAddress": {
 			"plotNumber": "Pl-147",
 			"street": "Manor sq",
 			"state": "MD",
 			"country": "United States",
-			"zipCode": 20341
+			"zipCode": 21001
 		},
-		"user_first_name": "12345",
-		"user_last_name": "&^%$",
-		"user_contact_number":2867,
-		"user_email_id": "a@gmail.com"
-	},		
+		"user_first_name": "Sam",
+        "user_last_name": "Karan",
+		"user_contact_number":5917254561,
+		"user_email_id": "raja50@gmail.com"
+	},
+	"createFNameAN": {
+		"userAddress": {
+			"plotNumber": "Pl-161",
+			"street": "Manor Dr",
+			"state": "SC",
+			"country": "United States",
+			"zipCode": 20512
+		},
+		"user_first_name": "123",
+		"user_last_name": "Somu",
+		"user_contact_number": 1234567891,
+		"user_email_id": "aa@gmail.com"
+	},			
 	"updateuserInvalid": {		
         "userAddress": {           
             "plotNumber": "Pl-148",
@@ -46,10 +59,23 @@
             "country": "United States",
             "zipCode": 20341
         },        
-        "user_first_name": "RajeshKK",
+        "user_first_name": "Raja",
         "user_last_name": "Krishna",
-        "user_contact_number": 2808321,
+        "user_contact_number": 7856901512,
         "user_email_id": "raja37"
+	},
+	"updateusersamePN": {		
+        "userAddress": {           
+            "plotNumber": "Pl-148",
+            "street": "Mason dr",
+            "state": "MD",
+            "country": "United States",
+            "zipCode": 20341
+        },        
+        "user_first_name": "Raja",
+        "user_last_name": "Krishna",
+        "user_contact_number": 5917254060,
+        "user_email_id": "raja37@gmail.com"
 	},
 	"updateuserMissing": {		
         "userAddress": {           

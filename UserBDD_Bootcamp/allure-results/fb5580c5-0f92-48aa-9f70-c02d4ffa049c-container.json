@@ -1,0 +1,1 @@
+{"uuid":"fb5580c5-0f92-48aa-9f70-c02d4ffa049c","name":"Scenario: Check if user able to create without mandatory fields payload","children":["bf79f789-9330-4e20-b3dd-7e4fe0cce1fb"],"befores":[],"afters":[],"start":1716502351807,"stop":1716502352235}

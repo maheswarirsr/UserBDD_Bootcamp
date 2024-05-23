@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 monochrome = true, plugin = {
 		"pretty", "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
 		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-		"html:target/HtmlReport/htmlreport.html" })
+		"html:target/HtmlReport/cucumberhtmlreport.html" })
 public class TestRunner {
 
 }

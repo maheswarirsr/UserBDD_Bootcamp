@@ -1,0 +1,1 @@
+{"uuid":"e7d6cda5-661d-48b5-ac56-cdcf5458bea9","name":"Scenario: Verify if user is being successfully retrieved using GetUserbyNameAPI","children":["07ea06bb-bc1b-4e08-b1a3-a37d43fffc2e"],"befores":[],"afters":[],"start":1716468798322,"stop":1716468798860}

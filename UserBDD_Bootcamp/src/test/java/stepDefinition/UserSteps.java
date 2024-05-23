@@ -152,17 +152,20 @@ public class UserSteps extends Utils{
 		}
 		
 		
-		// Update user with existing userId
-		@Given("user with existing userId")
-		public void user_with_existing_user_id() throws IOException {
-			requestSpec = given().spec(requestSpecification());
-		}
-		@When("user send HTTPS Request and  request Body with existing userId")
-		public void user_send_https_request_and_request_body_with_existing_user_id() throws IOException {
-			response = requestSpec
-					 .when()
-					 .put(PropertiesFile.getProperty("existingId")).then().log().all().extract().response();
-		}
+//		// Update user with existing phonenumber
+//		@Given("user update with existing phonenumber")
+//		public void user_update_with_existing_phonenumber() throws IOException {
+//			
+//			String jsonFileName ="userdata.json";
+//			String jsonKey ="updateusersamePN";		
+//			requestSpec = given().spec(requestSpecification().body(JsonReader.getRequestBody(jsonFileName,jsonKey)));
+//		}
+//		@When("user send HTTPS Request and  request Body with existing phonenumber")
+//		public void user_send_https_request_and_request_body_with_existing_phonenumber() throws IOException {
+//			response = requestSpec
+//					 .when()
+//					 .put(PropertiesFile.getProperty("existing")).then().log().all().extract().response();
+//		}
 
 
 		
@@ -233,7 +236,7 @@ public class UserSteps extends Utils{
 					 .when()
 					 .put(PropertiesFile.getProperty("invaliddata")).then().log().all().extract().response();
 			JsonPath jsonPath = new JsonPath(response.getBody().asString());
-			String actualcode = jsonPath.get("status").toString();
+			actualcode = jsonPath.get("status").toString();
 			actualmsg = jsonPath.get("message").toString();
 			System.out.println(actualcode);
 			System.out.println(actualmsg);
@@ -273,27 +276,27 @@ public class UserSteps extends Utils{
 		@Given("user without mandatory fields")
 		public void user_without_mandatory_fields() throws IOException {
 			String jsonFileName ="userdata.json";
-			String jsonKey ="postuserInvalid";		
+			String jsonKey ="createexistCN";		
 			requestSpec = given().spec(requestSpecification().body(JsonReader.getRequestBody(jsonFileName,jsonKey)));
 			
 		}
          
 		@When("user send post Request and request Body without mandatory fields")
 		public void user_send_post_request_and_request_body_without_mandatory_fields() throws IOException {				
-			response = requestSpec.when().post(PropertiesFile.getProperty("postinvaliddata")).then().extract().response();
+			response = requestSpec.when().post(PropertiesFile.getProperty("postinvaliddata")).then().log().all().extract().response();
 
 		}
-		@Then("user receives {string} with message")
-		public void user_receives_with_message(String string) {
+		@Then("user got {string} with message {string}")
+		public void user_got_with_message(String code, String message) {
 			JsonPath jsonPath = new JsonPath(response.getBody().asString());
 	    	  actualcode = jsonPath.get("status");
 	    	  actualmsg = jsonPath.get("message");
 				System.out.println(actualcode);
 				System.out.println(actualmsg);
-				assertEquals(actualcode,string);
-				assertEquals(actualmsg,"user FirstName is mandatory and should contains alphabets only");
-				
+				assertEquals(actualcode,code);
+				assertEquals(actualmsg,message);
 		}
+		
 
 
         //post with invalid method
@@ -309,7 +312,13 @@ public class UserSteps extends Utils{
 			System.out.println(actualmsg);
 		}
 		
-        //post with invalid phone data
+        //post with invalid request body
+		@Given("user with Invalid request body")
+		public void user_with_invalid_request_body() throws IOException {
+			String jsonFileName ="userdata.json";
+			String jsonKey ="createFNameAN";		
+			requestSpec = given().spec(requestSpecification().body(JsonReader.getRequestBody(jsonFileName,jsonKey)));
+		}
 		@When("user send post Request and request Body with invalid data")
 		public void user_send_post_request_and_request_body_with_invalid_data() throws IOException {
 			response = requestSpec.when().post(PropertiesFile.getProperty("postinvaliddata")).then().extract().response();
