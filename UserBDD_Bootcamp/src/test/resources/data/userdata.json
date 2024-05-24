@@ -1,16 +1,16 @@
 {
 	"postuser1": {
 		"userAddress": {
-			"plotNumber": "Pl-171",
+			"plotNumber": "Pl-172",
 			"street": "Manor Sq",
 			"state": "CA",
 			"country": "United States",
 			"zipCode": 20512
 		},
-		"user_first_name": "Rajaaaaaaaaa",
-		"user_last_name": "Palaniiiiiiiiiii",
-		"user_contact_number": 2883242935,
-		"user_email_id": "raja71@gmail.com"
+		"user_first_name": "Raja",
+		"user_last_name": "Pani",
+		"user_contact_number": 9993242935,
+		"user_email_id": "raja74@gmail.com"
 	},	
 	"updateuser1": {		
         "userAddress": {           
@@ -22,8 +22,8 @@
         },        
         "user_first_name": "Raja",
         "user_last_name": "Thangaraj",
-        "user_contact_number": 7856901511,
-        "user_email_id": "raja011@gmail.com"
+        "user_contact_number": 7856401511,
+        "user_email_id": "raja012@gmail.com"
 	},
 	"createexistCN": {
 		"userAddress": {

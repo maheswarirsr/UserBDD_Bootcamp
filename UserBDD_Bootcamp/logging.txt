@@ -15,21 +15,21 @@ Body:
         "country": "United States",
         "zipCode": 20512,
         "street": "Manor Sq",
-        "plotNumber": "Pl-170",
+        "plotNumber": "Pl-171",
         "state": "CA"
     },
-    "user_first_name": "Rajaaaaaaaa",
-    "user_email_id": "raja70@gmail.com",
-    "user_last_name": "Palaniiiiiiiiii",
-    "user_contact_number": 1883242935
+    "user_first_name": "Rajaaaaaaaaa",
+    "user_email_id": "raja71@gmail.com",
+    "user_last_name": "Palaniiiiiiiiiii",
+    "user_contact_number": 2883242935
 }
 HTTP/1.1 201 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507418&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=B9oOsoGZUue%2FFcbSaL%2BETDZqGhZW2jhr5HLi%2BPHyfKA%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507418&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=B9oOsoGZUue%2FFcbSaL%2BETDZqGhZW2jhr5HLi%2BPHyfKA%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509271&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=QvUzrPYwhITyhijz5ps2WYgXrdS9aplyMcym8T15upM%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509271&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=QvUzrPYwhITyhijz5ps2WYgXrdS9aplyMcym8T15upM%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=6F82562C23F3655A4649730E66B627DA; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=AFCCE3A40D0B13E0FFE9A2FACF0D25F9; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -39,28 +39,28 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:36:58 GMT
+Date: Fri, 24 May 2024 00:07:51 GMT
 Via: 1.1 vegur
 
 {
     "userAddress": {
-        "addressId": 9091,
-        "plotNumber": "Pl-170",
+        "addressId": 9098,
+        "plotNumber": "Pl-171",
         "street": "Manor Sq",
         "state": "CA",
         "country": "United States",
         "zipCode": 20512
     },
-    "user_id": 9090,
-    "user_first_name": "Rajaaaaaaaa",
-    "user_last_name": "Palaniiiiiiiiii",
-    "user_contact_number": 1883242935,
-    "user_email_id": "raja70@gmail.com",
-    "creation_time": "2024-05-23T23:36:58.780+00:00",
-    "last_mod_time": "2024-05-23T23:36:58.780+00:00"
+    "user_id": 9097,
+    "user_first_name": "Rajaaaaaaaaa",
+    "user_last_name": "Palaniiiiiiiiiii",
+    "user_contact_number": 2883242935,
+    "user_email_id": "raja71@gmail.com",
+    "creation_time": "2024-05-24T00:07:51.515+00:00",
+    "last_mod_time": "2024-05-24T00:07:51.515+00:00"
 }
 Request method:	PUT
-Request URI:	https://userserviceapi-a54ceee3346a.herokuapp.com/uap/updateuser/9090
+Request URI:	https://userserviceapi-a54ceee3346a.herokuapp.com/uap/updateuser/9097
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -86,11 +86,11 @@ Body:
 }
 HTTP/1.1 200 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507419&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=4pheNiet7qMWdUeAS%2B%2F4LJ%2BdTEYV2ecJIyvkBHZ4lkM%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507419&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=4pheNiet7qMWdUeAS%2B%2F4LJ%2BdTEYV2ecJIyvkBHZ4lkM%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509272&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Z8J3P%2BtpW%2FiE%2F9HxXq%2FW2OOoj2sTnzH%2BGzYXMTNEClk%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509272&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Z8J3P%2BtpW%2FiE%2F9HxXq%2FW2OOoj2sTnzH%2BGzYXMTNEClk%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=2EB20D89B3A90ED525F7406AC3E4A1A7; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=4A072F96CE7E37DD753E4A38421A823C; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -100,25 +100,25 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:36:59 GMT
+Date: Fri, 24 May 2024 00:07:52 GMT
 Via: 1.1 vegur
 
 {
     "userAddress": {
-        "addressId": 9091,
+        "addressId": 9098,
         "plotNumber": "Pl-163",
         "street": "Manor ct",
         "state": "VA",
         "country": "United States",
         "zipCode": 20601
     },
-    "user_id": 9090,
+    "user_id": 9097,
     "user_first_name": "Raja",
     "user_last_name": "Thangaraj",
     "user_contact_number": 7856901511,
     "user_email_id": "raja011@gmail.com",
-    "creation_time": "2024-05-23T23:36:58.780+00:00",
-    "last_mod_time": "2024-05-23T23:37:00.208+00:00"
+    "creation_time": "2024-05-24T00:07:51.515+00:00",
+    "last_mod_time": "2024-05-24T00:07:52.688+00:00"
 }
 Request method:	GET
 Request URI:	https://userserviceapi-a54ceee3346a.herokuapp.com/uap/users
@@ -147,11 +147,11 @@ Body:
 }
 HTTP/1.1 200 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507420&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=to1ZzEstfhHlVYZCZ23zbuIKLbhMJuH%2Beksyyk5ACQI%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507420&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=to1ZzEstfhHlVYZCZ23zbuIKLbhMJuH%2Beksyyk5ACQI%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509272&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Z8J3P%2BtpW%2FiE%2F9HxXq%2FW2OOoj2sTnzH%2BGzYXMTNEClk%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509272&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Z8J3P%2BtpW%2FiE%2F9HxXq%2FW2OOoj2sTnzH%2BGzYXMTNEClk%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=73999996AC15D6AA38EEBEE851AC584B; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=D0FE6DF9282B76C851B87E35031AD4C9; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -161,7 +161,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:01 GMT
+Date: Fri, 24 May 2024 00:07:54 GMT
 Via: 1.1 vegur
 
 [
@@ -9344,23 +9344,6 @@ Via: 1.1 vegur
         "user_email_id": "zzz@gmail.com",
         "creation_time": "2024-05-10T21:32:35.270+00:00",
         "last_mod_time": "2024-05-10T21:32:35.270+00:00"
-    },
-    {
-        "userAddress": {
-            "addressId": 6126,
-            "plotNumber": "Pl-119",
-            "street": "Manor ctttt",
-            "state": "MD",
-            "country": "United States",
-            "zipCode": 20344
-        },
-        "user_id": 6125,
-        "user_first_name": "Rajaaaaaaaa",
-        "user_last_name": "Dhanaaaaaaaaa",
-        "user_contact_number": 7802788100,
-        "user_email_id": "raja9@gmail.com",
-        "creation_time": "2024-05-17T23:17:28.738+00:00",
-        "last_mod_time": "2024-05-17T23:17:28.738+00:00"
     },
     {
         "userAddress": {
@@ -20567,23 +20550,6 @@ Via: 1.1 vegur
     },
     {
         "userAddress": {
-            "addressId": 6154,
-            "plotNumber": "Pl-120",
-            "street": "Manor cttttt",
-            "state": "MD",
-            "country": "United States",
-            "zipCode": 20344
-        },
-        "user_id": 6153,
-        "user_first_name": "Rajaaaaaaaaa",
-        "user_last_name": "Dhanaaaaaaaaaa",
-        "user_contact_number": 7812788100,
-        "user_email_id": "raja11@gmail.com",
-        "creation_time": "2024-05-17T23:50:55.549+00:00",
-        "last_mod_time": "2024-05-17T23:50:55.549+00:00"
-    },
-    {
-        "userAddress": {
             "addressId": 2667,
             "plotNumber": "13-B",
             "street": null,
@@ -22757,6 +22723,23 @@ Via: 1.1 vegur
         "user_email_id": "abihh@abc.com",
         "creation_time": "2024-05-17T03:45:14.103+00:00",
         "last_mod_time": "2024-05-17T03:45:14.103+00:00"
+    },
+    {
+        "userAddress": {
+            "addressId": 9098,
+            "plotNumber": "Pl-163",
+            "street": "Manor ct",
+            "state": "VA",
+            "country": "United States",
+            "zipCode": 20601
+        },
+        "user_id": 9097,
+        "user_first_name": "Raja",
+        "user_last_name": "Thangaraj",
+        "user_contact_number": 7856901511,
+        "user_email_id": "raja011@gmail.com",
+        "creation_time": "2024-05-24T00:07:51.515+00:00",
+        "last_mod_time": "2024-05-24T00:07:52.688+00:00"
     },
     {
         "userAddress": {
@@ -26313,20 +26296,37 @@ Via: 1.1 vegur
     },
     {
         "userAddress": {
-            "addressId": 9091,
-            "plotNumber": "Pl-163",
-            "street": "Manor ct",
-            "state": "VA",
-            "country": "United States",
-            "zipCode": 20601
+            "addressId": 9092,
+            "plotNumber": "PL-05846",
+            "street": "Klein Lake",
+            "state": "NJ",
+            "country": "NJ",
+            "zipCode": 45565
         },
-        "user_id": 9090,
-        "user_first_name": "Raja",
-        "user_last_name": "Thangaraj",
-        "user_contact_number": 7856901511,
-        "user_email_id": "raja011@gmail.com",
-        "creation_time": "2024-05-23T23:36:58.780+00:00",
-        "last_mod_time": "2024-05-23T23:37:00.208+00:00"
+        "user_id": 9091,
+        "user_first_name": "TeamSeven HAlgeria",
+        "user_last_name": "HAlgeria TeamSeven",
+        "user_contact_number": 2106317847,
+        "user_email_id": "TeamSeven.HAlgeria@example.com",
+        "creation_time": "2024-05-23T23:43:53.995+00:00",
+        "last_mod_time": "2024-05-23T23:43:53.995+00:00"
+    },
+    {
+        "userAddress": {
+            "addressId": 9094,
+            "plotNumber": "PL-05846",
+            "street": "Klein Lake",
+            "state": "NY",
+            "country": "NY",
+            "zipCode": 45565
+        },
+        "user_id": 9093,
+        "user_first_name": "TeamSeven IAlgeria",
+        "user_last_name": "IAlgeria TeamSeven",
+        "user_contact_number": 2106317848,
+        "user_email_id": "TeamSeven.IAlgeria@example.com",
+        "creation_time": "2024-05-23T23:56:30.000+00:00",
+        "last_mod_time": "2024-05-23T23:56:30.000+00:00"
     },
     {
         "userAddress": {
@@ -26908,7 +26908,7 @@ Via: 1.1 vegur
     }
 ]
 Request method:	GET
-Request URI:	https://userserviceapi-a54ceee3346a.herokuapp.com/uap/user/9090
+Request URI:	https://userserviceapi-a54ceee3346a.herokuapp.com/uap/user/9097
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -26934,11 +26934,11 @@ Body:
 }
 HTTP/1.1 200 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507422&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=zqdvUImwRvb2cwSsERK5JUxxElWq4DnrqN0mKkqLbQE%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507422&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=zqdvUImwRvb2cwSsERK5JUxxElWq4DnrqN0mKkqLbQE%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509274&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=ZO%2BnJgBO9uOeKgSQAC6oF%2FyKDimJRPaq%2B%2FQHTO%2FjHxA%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509274&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=ZO%2BnJgBO9uOeKgSQAC6oF%2FyKDimJRPaq%2B%2FQHTO%2FjHxA%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=7038432E892260E87274E7DB8B5151DF; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=AC825A4740A76F5BA80CCDE48B92FAA1; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -26948,28 +26948,28 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:01 GMT
+Date: Fri, 24 May 2024 00:07:54 GMT
 Via: 1.1 vegur
 
 {
     "userAddress": {
-        "addressId": 9091,
+        "addressId": 9098,
         "plotNumber": "Pl-163",
         "street": "Manor ct",
         "state": "VA",
         "country": "United States",
         "zipCode": 20601
     },
-    "user_id": 9090,
+    "user_id": 9097,
     "user_first_name": "Raja",
     "user_last_name": "Thangaraj",
     "user_contact_number": 7856901511,
     "user_email_id": "raja011@gmail.com",
-    "creation_time": "2024-05-23T23:36:58.780+00:00",
-    "last_mod_time": "2024-05-23T23:37:00.208+00:00"
+    "creation_time": "2024-05-24T00:07:51.515+00:00",
+    "last_mod_time": "2024-05-24T00:07:52.688+00:00"
 }
 Request method:	DELETE
-Request URI:	https://userserviceapi-a54ceee3346a.herokuapp.com/uap/deleteuser/9090
+Request URI:	https://userserviceapi-a54ceee3346a.herokuapp.com/uap/deleteuser/9097
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -26995,11 +26995,11 @@ Body:
 }
 HTTP/1.1 200 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507422&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=zqdvUImwRvb2cwSsERK5JUxxElWq4DnrqN0mKkqLbQE%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507422&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=zqdvUImwRvb2cwSsERK5JUxxElWq4DnrqN0mKkqLbQE%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509274&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=ZO%2BnJgBO9uOeKgSQAC6oF%2FyKDimJRPaq%2B%2FQHTO%2FjHxA%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509274&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=ZO%2BnJgBO9uOeKgSQAC6oF%2FyKDimJRPaq%2B%2FQHTO%2FjHxA%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=50929F73FB9C1BE48A58069F6176C50C; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=B109AAA6B07B1652048048F8AA7488A7; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -27009,7 +27009,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:02 GMT
+Date: Fri, 24 May 2024 00:07:55 GMT
 Via: 1.1 vegur
 
 {
@@ -27017,7 +27017,7 @@ Via: 1.1 vegur
     "message": "User is deleted successfully"
 }
 Request method:	GET
-Request URI:	https://userserviceapi-a54ceee3346a.herokuapp.com/uap/users/username/Rajaaaaaaaa
+Request URI:	https://userserviceapi-a54ceee3346a.herokuapp.com/uap/users/username/Rajaaaaaaaaa
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -27041,13 +27041,13 @@ Body:
     "user_last_name": "Thangaraj",
     "user_contact_number": 7856901511
 }
-HTTP/1.1 200 
+HTTP/1.1 404 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507423&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=O1YQ3cGRDGUVXxvsP93QB2KXRYClqb7nwu0SvDrwmLg%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507423&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=O1YQ3cGRDGUVXxvsP93QB2KXRYClqb7nwu0SvDrwmLg%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509275&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=OaDJ43O471VQf4JwjOYjER14uBtMiW8NcsuRJnrNNXQ%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509275&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=OaDJ43O471VQf4JwjOYjER14uBtMiW8NcsuRJnrNNXQ%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=1B6FFD3D21DFE30D6BE70097BA381A67; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=1ECE20B3A8A81E1266C5128CE11E031E; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -27057,30 +27057,15 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:02 GMT
+Date: Fri, 24 May 2024 00:07:55 GMT
 Via: 1.1 vegur
 
-[
-    {
-        "userAddress": {
-            "addressId": 6126,
-            "plotNumber": "Pl-119",
-            "street": "Manor ctttt",
-            "state": "MD",
-            "country": "United States",
-            "zipCode": 20344
-        },
-        "user_id": 6125,
-        "user_first_name": "Rajaaaaaaaa",
-        "user_last_name": "Dhanaaaaaaaaa",
-        "user_contact_number": 7802788100,
-        "user_email_id": "raja9@gmail.com",
-        "creation_time": "2024-05-17T23:17:28.738+00:00",
-        "last_mod_time": "2024-05-17T23:17:28.738+00:00"
-    }
-]
+{
+    "status": "404 NOT_FOUND",
+    "message": "User with userFirstName Rajaaaaaaaaa not found!"
+}
 Request method:	DELETE
-Request URI:	https://userserviceapi-a54ceee3346a.herokuapp.com/uap/deleteuser/username/Rajaaaaaaaa
+Request URI:	https://userserviceapi-a54ceee3346a.herokuapp.com/uap/deleteuser/username/Rajaaaaaaaaa
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -27104,13 +27089,13 @@ Body:
     "user_last_name": "Thangaraj",
     "user_contact_number": 7856901511
 }
-HTTP/1.1 200 
+HTTP/1.1 404 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507423&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=O1YQ3cGRDGUVXxvsP93QB2KXRYClqb7nwu0SvDrwmLg%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507423&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=O1YQ3cGRDGUVXxvsP93QB2KXRYClqb7nwu0SvDrwmLg%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509275&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=OaDJ43O471VQf4JwjOYjER14uBtMiW8NcsuRJnrNNXQ%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509275&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=OaDJ43O471VQf4JwjOYjER14uBtMiW8NcsuRJnrNNXQ%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=49D35FE82A59269C771D89693537D276; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=88478D8AD36A33387299F2773D990CFD; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -27120,12 +27105,12 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:04 GMT
+Date: Fri, 24 May 2024 00:07:55 GMT
 Via: 1.1 vegur
 
 {
-    "status": "Success",
-    "message": "User is deleted successfully"
+    "status": "404 NOT_FOUND",
+    "message": "User does not exist with name 'Rajaaaaaaaaa'"
 }
 Request method:	POST
 Request URI:	https://userserviceapi-a54ceee3346a.herokuapp.com/uap/createuser
@@ -27154,11 +27139,11 @@ Body:
 }
 HTTP/1.1 404 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507424&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=2W33f9Re3sPKtioiKCDLPLItdrSZJOy2nwLc0%2BET35E%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507424&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=2W33f9Re3sPKtioiKCDLPLItdrSZJOy2nwLc0%2BET35E%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509276&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=yk9ZqUKi3IkcLIjCo2qU0ZelMp1pofg7dNvfEH4G1aw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509276&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=yk9ZqUKi3IkcLIjCo2qU0ZelMp1pofg7dNvfEH4G1aw%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=778D0693E2A87EEF4C05ADBDCF718BDE; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=EB419BB0EAED797971C72377443522B1; Path=/; Secure; HttpOnly
 Vary: Origin
 Vary: Access-Control-Request-Method
 Vary: Access-Control-Request-Headers
@@ -27171,11 +27156,11 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:04 GMT
+Date: Fri, 24 May 2024 00:07:56 GMT
 Via: 1.1 vegur
 
 {
-    "timestamp": "2024-05-23T23:37:04.500+00:00",
+    "timestamp": "2024-05-24T00:07:56.504+00:00",
     "status": 404,
     "error": "Not Found",
     "path": "/uap/createuser"
@@ -27207,11 +27192,11 @@ Body:
 }
 HTTP/1.1 405 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507424&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=2W33f9Re3sPKtioiKCDLPLItdrSZJOy2nwLc0%2BET35E%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507424&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=2W33f9Re3sPKtioiKCDLPLItdrSZJOy2nwLc0%2BET35E%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509276&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=yk9ZqUKi3IkcLIjCo2qU0ZelMp1pofg7dNvfEH4G1aw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509276&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=yk9ZqUKi3IkcLIjCo2qU0ZelMp1pofg7dNvfEH4G1aw%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=9F5FE4E6701C569FB1C0CC63C6395FD1; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=2972CE70D3320AA31A9AD4403B9BE9F3; Path=/; Secure; HttpOnly
 Allow: POST
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
@@ -27222,11 +27207,11 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:04 GMT
+Date: Fri, 24 May 2024 00:07:56 GMT
 Via: 1.1 vegur
 
 {
-    "timestamp": "2024-05-23T23:37:04.951+00:00",
+    "timestamp": "2024-05-24T00:07:56.908+00:00",
     "status": 405,
     "error": "Method Not Allowed",
     "path": "/uap/createusers"
@@ -27258,11 +27243,11 @@ Body:
 }
 HTTP/1.1 409 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507425&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Sg3frt%2Fby%2FOHLZ%2BD4PsmR2VuU63xdCh4iWuUzdHdEQc%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507425&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Sg3frt%2Fby%2FOHLZ%2BD4PsmR2VuU63xdCh4iWuUzdHdEQc%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509277&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=33CnwvaT53ih6Y2jQFsEnNCAQBXTl650Rhw7vEfWfGg%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509277&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=33CnwvaT53ih6Y2jQFsEnNCAQBXTl650Rhw7vEfWfGg%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=D3213681E5EB6A845FA887A49DF8A871; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=1A4F9A93A10A7209E10F4E796DA18EAF; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -27272,7 +27257,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:05 GMT
+Date: Fri, 24 May 2024 00:07:56 GMT
 Via: 1.1 vegur
 
 {
@@ -27306,11 +27291,11 @@ Body:
 }
 HTTP/1.1 404 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507425&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Sg3frt%2Fby%2FOHLZ%2BD4PsmR2VuU63xdCh4iWuUzdHdEQc%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507425&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Sg3frt%2Fby%2FOHLZ%2BD4PsmR2VuU63xdCh4iWuUzdHdEQc%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509277&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=33CnwvaT53ih6Y2jQFsEnNCAQBXTl650Rhw7vEfWfGg%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509277&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=33CnwvaT53ih6Y2jQFsEnNCAQBXTl650Rhw7vEfWfGg%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=218E7CF0651811915158CFB26CA6AA3B; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=3211CAFD69A54D41522866F966F52B1A; Path=/; Secure; HttpOnly
 Vary: Origin
 Vary: Access-Control-Request-Method
 Vary: Access-Control-Request-Headers
@@ -27323,11 +27308,11 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:05 GMT
+Date: Fri, 24 May 2024 00:07:57 GMT
 Via: 1.1 vegur
 
 {
-    "timestamp": "2024-05-23T23:37:05.904+00:00",
+    "timestamp": "2024-05-24T00:07:57.757+00:00",
     "status": 404,
     "error": "Not Found",
     "path": "/uap/updateusers/6359"
@@ -27359,11 +27344,11 @@ Body:
 }
 HTTP/1.1 405 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507426&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=iuUV5xp0p1V3CaTHf8dDY0GTlVMMPIf7Www7GMpbE58%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507426&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=iuUV5xp0p1V3CaTHf8dDY0GTlVMMPIf7Www7GMpbE58%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509277&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=33CnwvaT53ih6Y2jQFsEnNCAQBXTl650Rhw7vEfWfGg%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509277&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=33CnwvaT53ih6Y2jQFsEnNCAQBXTl650Rhw7vEfWfGg%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=EAFC68FF2049F89F94766D21F68CB30F; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=E0A1904F395C933256767F136FDD6E3F; Path=/; Secure; HttpOnly
 Allow: PUT
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
@@ -27374,11 +27359,11 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:06 GMT
+Date: Fri, 24 May 2024 00:07:57 GMT
 Via: 1.1 vegur
 
 {
-    "timestamp": "2024-05-23T23:37:06.318+00:00",
+    "timestamp": "2024-05-24T00:07:58.159+00:00",
     "status": 405,
     "error": "Method Not Allowed",
     "path": "/uap/updateuser/8836"
@@ -27410,11 +27395,11 @@ Body:
 }
 HTTP/1.1 400 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507426&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=iuUV5xp0p1V3CaTHf8dDY0GTlVMMPIf7Www7GMpbE58%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507426&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=iuUV5xp0p1V3CaTHf8dDY0GTlVMMPIf7Www7GMpbE58%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509278&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=RzgZXNZNUSDejQFID6EleA1RxZP1YkyZlxjnhpfEjV0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509278&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=RzgZXNZNUSDejQFID6EleA1RxZP1YkyZlxjnhpfEjV0%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=4C658EEA67F5AE4F37461815F4CCCBB5; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=B4BD8660097D3A08FDEFAA32A02BB6E0; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -27424,7 +27409,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:06 GMT
+Date: Fri, 24 May 2024 00:07:58 GMT
 Via: 1.1 vegur
 
 {
@@ -27458,11 +27443,11 @@ Body:
 }
 HTTP/1.1 400 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507427&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=YBS%2FsGLQigorOybl1qTKNvKSy3gSSF8hFkzTM9jKGuo%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507427&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=YBS%2FsGLQigorOybl1qTKNvKSy3gSSF8hFkzTM9jKGuo%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509279&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=zKx%2FDIpAsGhPVt7fIfMxoY3I%2BGl1HbIWfarDFLpJAWo%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509279&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=zKx%2FDIpAsGhPVt7fIfMxoY3I%2BGl1HbIWfarDFLpJAWo%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=8BA35039D33A76DEF96C07D246EA10EB; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=210CBA7DAEEC147E7791909E5D9567F8; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -27472,7 +27457,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:07 GMT
+Date: Fri, 24 May 2024 00:07:58 GMT
 Via: 1.1 vegur
 
 {
@@ -27506,11 +27491,11 @@ Body:
 }
 HTTP/1.1 404 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507427&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=YBS%2FsGLQigorOybl1qTKNvKSy3gSSF8hFkzTM9jKGuo%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507427&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=YBS%2FsGLQigorOybl1qTKNvKSy3gSSF8hFkzTM9jKGuo%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509279&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=zKx%2FDIpAsGhPVt7fIfMxoY3I%2BGl1HbIWfarDFLpJAWo%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509279&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=zKx%2FDIpAsGhPVt7fIfMxoY3I%2BGl1HbIWfarDFLpJAWo%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=AB3522E78FBDBD9BF9225DAFFC8FB00E; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=8F4DB54EAA28E8109B5E231A0F041049; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -27520,7 +27505,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:07 GMT
+Date: Fri, 24 May 2024 00:07:58 GMT
 Via: 1.1 vegur
 
 {
@@ -27554,11 +27539,11 @@ Body:
 }
 HTTP/1.1 400 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507428&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=VwU%2BAz2pbKhvTfkNKTitvbKkQ%2FpSXWVkKNLxfWWNm%2F4%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507428&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=VwU%2BAz2pbKhvTfkNKTitvbKkQ%2FpSXWVkKNLxfWWNm%2F4%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509279&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=zKx%2FDIpAsGhPVt7fIfMxoY3I%2BGl1HbIWfarDFLpJAWo%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509279&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=zKx%2FDIpAsGhPVt7fIfMxoY3I%2BGl1HbIWfarDFLpJAWo%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=6CA85B8CD621221D5C71B41AC9DF73AC; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=317C0CC6FE67A5B897CE80BFFC0586C6; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -27568,11 +27553,11 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:08 GMT
+Date: Fri, 24 May 2024 00:07:59 GMT
 Via: 1.1 vegur
 
 {
-    "timestamp": "2024-05-23T23:37:08.446+00:00",
+    "timestamp": "2024-05-24T00:08:00.218+00:00",
     "status": 400,
     "error": "Bad Request",
     "path": "/uap/user/ananaA122"
@@ -27604,11 +27589,11 @@ Body:
 }
 HTTP/1.1 400 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507428&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=VwU%2BAz2pbKhvTfkNKTitvbKkQ%2FpSXWVkKNLxfWWNm%2F4%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507428&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=VwU%2BAz2pbKhvTfkNKTitvbKkQ%2FpSXWVkKNLxfWWNm%2F4%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509280&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=6yCt%2F6ZNcPx%2B6WpTtETekJzXXlKZQZ2hbaM%2BTm0c6Js%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509280&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=6yCt%2F6ZNcPx%2B6WpTtETekJzXXlKZQZ2hbaM%2BTm0c6Js%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=DC52B26F48A9A93E997F41898EBBA74A; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=A75693735CEFB5A6D51088A7F6AF5D54; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -27618,11 +27603,11 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:08 GMT
+Date: Fri, 24 May 2024 00:07:59 GMT
 Via: 1.1 vegur
 
 {
-    "timestamp": "2024-05-23T23:37:08.852+00:00",
+    "timestamp": "2024-05-24T00:08:00.631+00:00",
     "status": 400,
     "error": "Bad Request",
     "path": "/uap/deleteuser/12334AA"
@@ -27654,11 +27639,11 @@ Body:
 }
 HTTP/1.1 404 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507428&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=VwU%2BAz2pbKhvTfkNKTitvbKkQ%2FpSXWVkKNLxfWWNm%2F4%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507428&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=VwU%2BAz2pbKhvTfkNKTitvbKkQ%2FpSXWVkKNLxfWWNm%2F4%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509280&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=6yCt%2F6ZNcPx%2B6WpTtETekJzXXlKZQZ2hbaM%2BTm0c6Js%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509280&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=6yCt%2F6ZNcPx%2B6WpTtETekJzXXlKZQZ2hbaM%2BTm0c6Js%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=39C65DD9AAFB0E3CEFBA8B5F81F11A87; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=080393E2FF77BA66FC8F13D6642BFF04; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -27668,7 +27653,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:08 GMT
+Date: Fri, 24 May 2024 00:08:01 GMT
 Via: 1.1 vegur
 
 {
@@ -27702,11 +27687,11 @@ Body:
 }
 HTTP/1.1 404 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507429&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=dS901WRtj4CcvQpLk9e1VJ6QqLKClXt5BwOmSaq0j4Y%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507429&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=dS901WRtj4CcvQpLk9e1VJ6QqLKClXt5BwOmSaq0j4Y%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509281&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=t1vbhKiRY8wI3%2FM3P2BRwD%2B9JwfmyLanohSM8d1Gzk4%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509281&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=t1vbhKiRY8wI3%2FM3P2BRwD%2B9JwfmyLanohSM8d1Gzk4%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=4F25E20DE01797E878453CA03973C962; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=094D1B87487DF79BE9B6F0239D7BB9B9; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -27716,7 +27701,7 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:09 GMT
+Date: Fri, 24 May 2024 00:08:01 GMT
 Via: 1.1 vegur
 
 {
@@ -27750,11 +27735,11 @@ Body:
 }
 HTTP/1.1 400 
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716507429&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=dS901WRtj4CcvQpLk9e1VJ6QqLKClXt5BwOmSaq0j4Y%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716507429&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=dS901WRtj4CcvQpLk9e1VJ6QqLKClXt5BwOmSaq0j4Y%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1716509281&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=t1vbhKiRY8wI3%2FM3P2BRwD%2B9JwfmyLanohSM8d1Gzk4%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1716509281&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=t1vbhKiRY8wI3%2FM3P2BRwD%2B9JwfmyLanohSM8d1Gzk4%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
-Set-Cookie: JSESSIONID=66B7838DD2CF09F1A14407028F89CC80; Path=/; Secure; HttpOnly
+Set-Cookie: JSESSIONID=015CBDB310B15FFAF44F659F0D747C41; Path=/; Secure; HttpOnly
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
 Cache-Control: no-cache, no-store, max-age=0, must-revalidate
@@ -27764,11 +27749,11 @@ Strict-Transport-Security: max-age=31536000 ; includeSubDomains
 X-Frame-Options: DENY
 Content-Type: application/json
 Transfer-Encoding: chunked
-Date: Thu, 23 May 2024 23:37:09 GMT
+Date: Fri, 24 May 2024 00:08:01 GMT
 Via: 1.1 vegur
 
 {
-    "timestamp": "2024-05-23T23:37:10.037+00:00",
+    "timestamp": "2024-05-24T00:08:01.813+00:00",
     "status": 400,
     "error": "Bad Request",
     "path": "/uap/user/ananaA122"
