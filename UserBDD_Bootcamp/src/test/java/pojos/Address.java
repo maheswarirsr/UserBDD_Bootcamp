@@ -1,20 +1,23 @@
 package pojos;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown=true)
 public class Address {
 	
-	private String plotnumber;
+	private String plotNumber;
 	private String street;
 	private String state;
 	private String country;
-	private Integer zipcode;
-	private int addressId;
+	private Integer zipCode;
+	private Integer addressId;
 	
 	
-	public String getPlotnumber() {
-		return plotnumber;
+	public String getPlotNumber() {
+		return plotNumber;
 	}
-	public void setPlotnumber(String plotnumber) {
-		this.plotnumber = plotnumber;
+	public void setPlotNumber(String plotNumber) {
+		this.plotNumber = plotNumber;
 	}
 	public String getStreet() {
 		return street;
@@ -34,17 +37,23 @@ public class Address {
 	public void setCountry(String country) {
 		this.country = country;
 	}
-	public Integer getZipcode() {
-		return zipcode;
+	
+	public Integer getZipCode() {
+		return zipCode;
 	}
-	public void setZipcode(Integer zipcode) {
-		this.zipcode = zipcode;
+	public void setZipCode(Integer zipCode) {
+		this.zipCode = zipCode;
 	}
-	public int getAddressId() {
+	public Integer getAddressId() {
 		return addressId;
 	}
-	public void setAddressId(int addressId) {
+	public void setAddressId(Integer addressId) {
 		this.addressId = addressId;
+	}
+	@Override
+	public String toString() {
+		return "Address [plotNumber=" + plotNumber + ", street=" + street + ", state=" + state + ", country=" + country
+				+ ", zipCode=" + zipCode + ", addressId=" + addressId + "]";
 	}
 
 }

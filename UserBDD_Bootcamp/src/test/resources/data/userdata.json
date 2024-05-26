@@ -7,10 +7,10 @@
 			"country": "United States",
 			"zipCode": 20512
 		},
-		"user_first_name": "Raja",
-		"user_last_name": "Pani",
-		"user_contact_number": 9993242935,
-		"user_email_id": "raja74@gmail.com"
+		"user_first_name": "Ravi",
+		"user_last_name": "Kumarrrrr",
+		"user_contact_number": 1773157980,
+		"user_email_id": "ravi15@gmail.com"
 	},	
 	"updateuser1": {		
         "userAddress": {           
@@ -20,10 +20,10 @@
             "country": "United States",
             "zipCode": 20601
         },        
-        "user_first_name": "Raja",
-        "user_last_name": "Thangaraj",
-        "user_contact_number": 7856401511,
-        "user_email_id": "raja012@gmail.com"
+        "user_first_name": "Ravi",
+        "user_last_name": "Rangarajjj",
+        "user_contact_number": 1896421511,
+        "user_email_id": "ravi08@gmail.com"
 	},
 	"createexistCN": {
 		"userAddress": {
@@ -35,8 +35,8 @@
 		},
 		"user_first_name": "Sam",
         "user_last_name": "Karan",
-		"user_contact_number":5917254561,
-		"user_email_id": "raja50@gmail.com"
+		"user_contact_number":1773157980,
+		"user_email_id": "ravi10@gmail.com"
 	},
 	"createFNameAN": {
 		"userAddress": {

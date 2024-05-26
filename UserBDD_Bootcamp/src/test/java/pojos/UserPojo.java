@@ -1,60 +1,80 @@
 package pojos;
 
+
+
+//@JsonIgnoreProperties(ignoreUnknown=true)
 public class UserPojo {
 	
-	private String firstname;
-	private String lastname;
-	private String contactnumber;
-	private String emailid;
-	private int userId;
-	private Address address;
+	private String user_first_name;
+	private String user_last_name;
+	private Integer user_contact_number;
+	private String user_email_id;
+	private Integer user_id;
+	private String creation_time;
+	private String last_mod_time;
+	private Address userAddress;
 	
-	public UserPojo() {
-		
+	public String getCreation_time() {
+		return creation_time;
 	}
-	public Address getAddress() {
-		return address;
+	public void setCreation_time(String creation_time) {
+		this.creation_time = creation_time;
 	}
-	public void setAddress(Address address) {
-		this.address = address;
+	public String getLast_mod_time() {
+		return last_mod_time;
 	}
-	public String getFirstname() {
-		return firstname;
+	public void setLast_mod_time(String last_mod_time) {
+		this.last_mod_time = last_mod_time;
 	}
-	public void setFirstname(String firstname) {
-		this.firstname = firstname;
+	public String getUser_first_name() {
+		return user_first_name;
 	}
-	public String getLastname() {
-		return lastname;
+	public void setUser_first_name(String user_first_name) {
+		this.user_first_name = user_first_name;
 	}
-	public void setLastname(String lastname) {
-		this.lastname = lastname;
+	public String getUser_last_name() {
+		return user_last_name;
 	}
-	public String getContactnumber() {
-		return contactnumber;
+	public void setUser_last_name(String user_last_name) {
+		this.user_last_name = user_last_name;
 	}
-	public void setContactnumber(String contactnumber) {
-		this.contactnumber = contactnumber;
+	public Integer getUser_contact_number() {
+		return user_contact_number;
 	}
-	public String getEmailid() {
-		return emailid;
+	public void setUser_contact_number(Integer user_contact_number) {
+		this.user_contact_number = user_contact_number;
 	}
-	public void setEmailid(String emailid) {
-		this.emailid = emailid;
+	public String getUser_email_id() {
+		return user_email_id;
 	}
-	
-	public int getUserId() {
-		return userId;
+	public void setUser_email_id(String user_email_id) {
+		this.user_email_id = user_email_id;
 	}
-	public void setUserId(int userId) {
-		this.userId = userId;
+	public Integer getUser_id() {
+		return user_id;
 	}
+	public void setUser_id(Integer user_id) {
+		this.user_id = user_id;
+	}
+	public Address getUserAddress() {
+		return userAddress;
+	}
+	public void setUserAddress(Address userAddress) {
+		this.userAddress = userAddress;
+	}
+
 	@Override
 	public String toString() {
-		return "UserPojo [firstname=" + firstname + ", lastname=" + lastname + ", contactnumber=" + contactnumber
-				+ ", emailid=" + emailid + ", userId=" + userId + ", address=" + address + "]";
+		return "UserPojo [user_first_name=" + user_first_name + ", user_last_name=" + user_last_name
+				+ ", user_contact_number=" + user_contact_number + ", user_email_id=" + user_email_id + ", user_id="
+				+ user_id + ", address=" + userAddress + "]";
 	}
 	
+	
+	
+	
+	
+
 	
 	
 

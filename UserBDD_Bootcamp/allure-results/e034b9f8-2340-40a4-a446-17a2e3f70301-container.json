@@ -1,0 +1,1 @@
+{"uuid":"e034b9f8-2340-40a4-a446-17a2e3f70301","name":"Scenario: Check if user able to create with validendpoint and requestbody without Authorization","children":["9e5c35d5-57b7-4ad6-a958-8a7602b607e7"],"befores":[],"afters":[],"start":1716761555506,"stop":1716761555605}
