@@ -8,9 +8,9 @@
 			"zipCode": 20512
 		},
 		"user_first_name": "Ravi",
-		"user_last_name": "Kumarrrrr",
-		"user_contact_number": 1773157980,
-		"user_email_id": "ravi15@gmail.com"
+		"user_last_name": "Kumarrrrrrrr",
+		"user_contact_number": 1978127980,
+		"user_email_id": "ravi21@gmail.com"
 	},	
 	"updateuser1": {		
         "userAddress": {           
@@ -21,9 +21,9 @@
             "zipCode": 20601
         },        
         "user_first_name": "Ravi",
-        "user_last_name": "Rangarajjj",
-        "user_contact_number": 1896421511,
-        "user_email_id": "ravi08@gmail.com"
+        "user_last_name": "Rangarajjjj",
+        "user_contact_number": 1897421511,
+        "user_email_id": "ravi22@gmail.com"
 	},
 	"createexistCN": {
 		"userAddress": {
@@ -35,8 +35,8 @@
 		},
 		"user_first_name": "Sam",
         "user_last_name": "Karan",
-		"user_contact_number":1773157980,
-		"user_email_id": "ravi10@gmail.com"
+		"user_contact_number":1978127980,
+		"user_email_id": "ravi23@gmail.com"
 	},
 	"createFNameAN": {
 		"userAddress": {
