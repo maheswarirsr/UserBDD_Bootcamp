@@ -1,20 +1,20 @@
 {
 	"postuser1": {
 		"userAddress": {
-			"plotNumber": "Pl-173",
+			"plotNumber": "Pl-174",
 			"street": "Manor Sq",
 			"state": "CA",
 			"country": "United States",
 			"zipCode": 20512
 		},
 		"user_first_name": "Ravi",
-		"user_last_name": "Lal",
-		"user_contact_number": 1018627984,
-		"user_email_id": "ravi32@gmail.com"
+		"user_last_name": "Gopi",
+		"user_contact_number": 1018627988,
+		"user_email_id": "ravi38@gmail.com"
 	},	
 	"updateuser1": {		
         "userAddress": {           
-            "plotNumber": "Pl-173",
+            "plotNumber": "Pl-174",
             "street": "Manor ct",
             "state": "VA",
             "country": "United States",
@@ -23,7 +23,7 @@
         "user_first_name": "Ravi",
         "user_last_name": "Rangaraj",
         "user_contact_number": 2117421521,
-        "user_email_id": "ravi33@gmail.com"
+        "user_email_id": "ravi39@gmail.com"
 	},
 	"createexistCN": {
 		"userAddress": {
@@ -35,8 +35,8 @@
 		},
 		"user_first_name": "Ravi",
         "user_last_name": "Karan",
-		"user_contact_number":1018627980,
-		"user_email_id": "ravi34@gmail.com"
+		"user_contact_number":1018627988,
+		"user_email_id": "ravi40@gmail.com"
 	},
 	"createFNameAN": {
 		"userAddress": {

@@ -11,7 +11,7 @@ Feature: Validating User API
   Scenario: Verify if user is being successfully updated using UpdateUserbyIdAPI
     Given Update user with valid payload
     When user calls "UpdateUserbyIdAPI" with "put" request
-    Then the API call is success with status code 200
+    Then API call is success with status code 200
 
   #
   #get

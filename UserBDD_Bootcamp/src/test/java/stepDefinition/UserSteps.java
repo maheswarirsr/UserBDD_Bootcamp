@@ -108,9 +108,7 @@ public class UserSteps extends Utils{
 	@Then("the API call is success with status code {int}")
 	public void the_api_call_is_success_with_status_code(Integer int1) throws IOException {
 		assertEquals(response.getStatusCode(), 200);
-		String putSchema = FileUtils.readFileToString(new File(PropertiesFile.getProperty("schemapathput")),"UTF-8");
-		response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(putSchema));
-		System.out.println("Schema successfully validated!!!");
+		
 	}
 	
 	//Update user -valid	
@@ -119,6 +117,13 @@ public class UserSteps extends Utils{
 		String jsonFileName ="userdata.json";
 		String jsonKey ="updateuser1";		
 		requestSpec = given().spec(requestSpecification().body(JsonReader.getRequestBody(jsonFileName,jsonKey)));
+	}
+	@Then("API call is success with status code {int}")
+	public void api_call_is_success_with_status_code(Integer int1) throws IOException {
+		assertEquals(response.getStatusCode(), 200);
+		String putSchema = FileUtils.readFileToString(new File(PropertiesFile.getProperty("schemapathput")),"UTF-8");
+		response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(putSchema));
+		System.out.println("Schema successfully validated!!!");
 	}
 	
 	//Delete user - valid
