@@ -4,7 +4,11 @@ package stepDefinition;
 import static org.junit.Assert.assertEquals;
 
 import static io.restassured.RestAssured.given;
+
+import java.io.File;
 import java.io.IOException;
+
+import org.apache.commons.io.FileUtils;
 import org.json.JSONException;
 
 
@@ -19,12 +23,11 @@ import io.restassured.module.jsv.JsonSchemaValidator;
 //import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import io.restassured.response.ValidatableResponse;
-import io.restassured.response.ValidatableResponseOptions;
+
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 import pojos.UserPojo;
-import pojos.UserTempData;
+
 import utilities.Utils;
 import utilities.ResponseHandler;
 
@@ -91,8 +94,9 @@ public class UserSteps extends Utils{
 	@Then ("user created with status code {int}")
 	public void user_created_with_status_code(Integer int1) throws IOException {
 		assertEquals(response.getStatusCode(), 201);
-		 //response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath(PropertiesFile.getProperty("schemapathpost")));
-		 System.out.println("Schema successfully validated!!!");
+		String postSchema = FileUtils.readFileToString(new File(PropertiesFile.getProperty("schemapathpost")),"UTF-8");
+		response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(postSchema));
+		System.out.println("Schema successfully validated!!!");
 	}
 	
 	//Get all users - valid
@@ -104,8 +108,9 @@ public class UserSteps extends Utils{
 	@Then("the API call is success with status code {int}")
 	public void the_api_call_is_success_with_status_code(Integer int1) throws IOException {
 		assertEquals(response.getStatusCode(), 200);
-		 //response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchemaInClasspath(PropertiesFile.getProperty("schemapathput")));
-		 System.out.println("Schema successfully validated!!!");
+		String putSchema = FileUtils.readFileToString(new File(PropertiesFile.getProperty("schemapathput")),"UTF-8");
+		response.then().assertThat().body(JsonSchemaValidator.matchesJsonSchema(putSchema));
+		System.out.println("Schema successfully validated!!!");
 	}
 	
 	//Update user -valid	

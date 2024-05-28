@@ -1,42 +1,42 @@
 {
 	"postuser1": {
 		"userAddress": {
-			"plotNumber": "Pl-172",
+			"plotNumber": "Pl-173",
 			"street": "Manor Sq",
 			"state": "CA",
 			"country": "United States",
 			"zipCode": 20512
 		},
 		"user_first_name": "Ravi",
-		"user_last_name": "Kumarrrrrrrr",
-		"user_contact_number": 1978127980,
-		"user_email_id": "ravi21@gmail.com"
+		"user_last_name": "Lal",
+		"user_contact_number": 1018627984,
+		"user_email_id": "ravi32@gmail.com"
 	},	
 	"updateuser1": {		
         "userAddress": {           
-            "plotNumber": "Pl-163",
+            "plotNumber": "Pl-173",
             "street": "Manor ct",
             "state": "VA",
             "country": "United States",
             "zipCode": 20601
         },        
         "user_first_name": "Ravi",
-        "user_last_name": "Rangarajjjj",
-        "user_contact_number": 1897421511,
-        "user_email_id": "ravi22@gmail.com"
+        "user_last_name": "Rangaraj",
+        "user_contact_number": 2117421521,
+        "user_email_id": "ravi33@gmail.com"
 	},
 	"createexistCN": {
 		"userAddress": {
-			"plotNumber": "Pl-147",
+			"plotNumber": "Pl-173",
 			"street": "Manor sq",
 			"state": "MD",
 			"country": "United States",
 			"zipCode": 21001
 		},
-		"user_first_name": "Sam",
+		"user_first_name": "Ravi",
         "user_last_name": "Karan",
-		"user_contact_number":1978127980,
-		"user_email_id": "ravi23@gmail.com"
+		"user_contact_number":1018627980,
+		"user_email_id": "ravi34@gmail.com"
 	},
 	"createFNameAN": {
 		"userAddress": {
@@ -48,8 +48,8 @@
 		},
 		"user_first_name": "123",
 		"user_last_name": "Somu",
-		"user_contact_number": 1234567891,
-		"user_email_id": "aa@gmail.com"
+		"user_contact_number": 1234567892,
+		"user_email_id": "aa11@gmail.com"
 	},			
 	"updateuserInvalid": {		
         "userAddress": {           
